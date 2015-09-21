@@ -1,0 +1,23 @@
+# encoding: utf-8
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: carrier_app
+  pool: 5
+  username: root
+  password: ''
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: carrier_app_test
+  pool: 5
+  username: root
+  password: ''
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: carrier_app_pr
+  pool: 5
+  username: root
+  password: ""

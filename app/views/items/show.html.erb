@@ -1,0 +1,86 @@
+<style type="text/css">
+	.td_width{
+		width: 20%;
+	}
+</style>
+<div class="alert alert-info">
+  <strong>Customer Name:</strong> <%= @customer.name %><br/>
+  <strong>Bill of Laden #:</strong> <%= @customer.bill_of_laden %>
+</div>
+
+<% if @item.present? %>
+<div class="container-fluid">
+	<div class="container" >
+		<div class="content" style="width:55%;">
+			<div class="row">
+				<div class="login-form">
+					<h4>Item details</h4>
+					<table class="table table-striped">
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Item #</td>
+							<td><%= @item.item_number || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Description at origin</td>
+							<td><%= @item.description_at_origin || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Warehouse cross</td>
+							<td><%= @item.warehouse_cross || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Driver</td>
+							<td><%= @item.driver || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Warehouse</td>
+							<td><%= @item.warehouse || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Shipper</td>
+							<td><%= @item.shipper || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Exception</td>
+							<td><%= @item.exception || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Desr symbol</td>
+							<td><%= @item.desr_symbole || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Exception symbol</td>
+							<td><%= @item.exception_symbol || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Location symbol</td>
+							<td><%= @item.location_symbol || ''%></td>
+						</tr>
+
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Photo 1</td>
+							<td><% if @item.file1.present? %>
+								<%= link_to "click here" ,"http://localhost:3000"+@item.file1.url, :target=>"blank"%>
+								<% else %>
+								:-(
+								<% end %>
+							</td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Photo 2</td>
+							<td>
+								<% if @item.file2.present? %>
+								<%= link_to "click here" ,"http://localhost:3000"+@item.file2.url, :target=>"blank"%>
+								<% else %>
+								:-(
+								<% end %>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<% end %>
+<%= link_to '<< Back', customer_items_path(@customer), :class=>"btn btn-primary btn-xs" %>

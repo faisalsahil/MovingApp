@@ -1,0 +1,135 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#customer_userid').multiselect();
+
+    $('.datepicker').datepicker().on('changeDate', function(ev){
+      $('.datepicker').datepicker('hide');
+    });
+  });
+</script>
+<%= hidden_field_tag 'active_class', 'create_project'%>
+<div class="row">
+  <div class="col-lg-6 col-lg-offset-3">
+    <%= form_for @customer, :url=> url, html: { class: 'well form-horizontal', role: 'form'} do |f| %>
+
+      <fieldset>
+        <% if @customer.errors.any? %>
+          <div class="alert alert-danger">
+            <h4><%= pluralize(@customer.errors.count, "error") %> prohibited this project from being saved:</h4>
+
+            <ul>
+            <% @customer.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+            </ul>
+          </div>
+        <% end %>
+        <div class="form-group">
+          <%= f.label "Bill of laden", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :bill_of_laden, autofocus: true,class: "form-control" %>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Name", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :name, class: "form-control" %>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Phone", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :phone, class: "form-control" %>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Loading Address", class: "col-sm-3 control-label" %>
+          <!-- <div class="col-sm-9"> -->
+            <div class="col-sm-5">
+              <%= f.text_field :loading_address, class: "form-control",:placeholder=>"Address" %>
+            </div>
+            <div class="col-sm-4">
+              <%= f.text_field :city, class: "form-control",:placeholder=>"City" %>
+            </div>
+            <br/>
+            <div class="col-sm-5">
+              <%= f.text_field :state, class: "form-control",:placeholder=>"Sate" , :style=>"margin-left:70%;margin-top: 2px;"%>
+            </div>
+            <div class="col-sm-4">
+              <%= f.text_field :zip, class: "form-control",:placeholder=>"Zip Code" , :style=>"margin-left:90%;margin-top: 2px;"%>
+            </div>
+            
+          <!-- </div> -->
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Destination Address", class: "col-sm-3 control-label" %>
+            <div class="col-sm-5">
+              <%= f.text_field :destination_address, class: "form-control",:placeholder=>"Address" %>
+            </div>
+            <div class="col-sm-4">
+              <%= f.text_field :city1, class: "form-control",:placeholder=>"City" %>
+            </div>
+            <br/>
+            <div class="col-sm-5">
+              <%= f.text_field :state1, class: "form-control",:placeholder=>"Sate" , :style=>"margin-top: 2px;"%>
+            </div>
+            <div class="col-sm-4">
+              <%= f.text_field :zip1, class: "form-control",:placeholder=>"Zip Code" , :style=>"margin-top: 2px;"%>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Tag Lot #", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :tag_lot_number, class: "form-control" %>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Tag lot color", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :tag_lot_color, class: "form-control" %>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Agent Name", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :agent_name, class: "form-control" %>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Date of Pickup", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :date_of_pickup, class: "form-control datepicker" %>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <%= f.label "Services & Charges", class: "col-sm-3 control-label" %>
+          <div class="col-sm-9">
+            <%= f.text_field :charges, class: "form-control" %>
+          </div>
+        </div>
+
+        <% if current_user.role == "client" %>
+          <div class="form-group">
+            <%= f.label :cars, "Add user", class: "col-sm-3 control-label" %>
+            <div class="col-sm-9">
+              <%= f.select(:userid, options_for_select(current_user.subordinates.collect {|x| [x.email, x.id]}), {}, {multiple: "multiple"}) %>
+            </div>
+          </div>
+        <% end %>
+      </fieldset>
+
+      <div class="col-sm-offset-3">
+        <%= f.submit 'Save', class: "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+</div>

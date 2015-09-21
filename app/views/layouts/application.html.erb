@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrier App</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <% if current_user.present? %>
+  	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <% else %>
+  	<%= javascript_include_tag "landing", "data-turbolinks-track" => true %>
+  <% end %>	
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= render partial: "partials/nav_bar" if current_user.present? %>
+<%= render partial: "partials/landing_nav_bar" unless current_user.present? %>
+<%= render partial: "partials/flash_message" %>
+<div class="container" >
+	<%= yield %>
+</div>
+
+</body>
+</html>
+
+

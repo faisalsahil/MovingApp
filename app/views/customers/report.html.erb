@@ -1,0 +1,43 @@
+<h1><%= @project.name %></h1>
+<% if @project.present? %>  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <!-- <th>Project</th> -->
+      <th>User</th>
+      <th>30 days Checklists</th>
+      <th>60 days Checklists</th>
+      <th>90+ day Checklists</th>
+    </thead>  
+    <tbody>
+      <%# @projects.each do |project|%>
+        <tr>
+          <!-- <td><%#= @project.name %></td> -->
+          <td><%= @uname %></td>
+          <td>
+            <% if @red_30 != true %>
+              <%= link_to "#{@days_30}", project_reports_path(@project) %>
+            <% else %>
+              <%= link_to "#{@days_30}", project_reports_path(@project), style: "color: red;" %>
+            <% end %>
+          </td>
+          <td>
+            <% if @red_60 != true %>
+              <%= link_to "#{@days_60}", project_reports_path(@project) %>
+            <% else %>
+              <%= link_to "#{@days_60}", project_reports_path(@project), style: "color: red;" %>
+            <% end %>
+          </td>
+          <td>
+            <% if @red_90 != true %>
+              <%= link_to "#{@days_90}", project_reports_path(@project) %>
+            <% else %>
+              <%= link_to "#{@days_90}", project_reports_path(@project), style: "color: red;" %>
+            <% end %>
+          </td>
+        </tr>
+      <%# end %>   
+    </tbody>  
+  </table> 
+<% else %>
+  <b>No Project Present</b>
+<% end %>   

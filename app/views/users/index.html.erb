@@ -1,0 +1,36 @@
+<% if @users.present? %>
+	<table class="table table-bordered table-striped table-condensed">
+		<thead>
+			<th>User</th>
+			<th>Email</th>
+			<th>Projects</th>
+			<th>Action</th>
+		</thead>	
+		<tbody>
+			<% @users.each do |user| %>
+				<% if current_user.id != user.id %>
+					<tr>
+						<td><a href="<%= user_path(user) %>"><%= user.first_name || user.last_name || ''%></a></td>
+						<td><%= user.email %></td>
+						<td><% user.customers && user.customers.each do |cutomer| %>
+								<%= cutomer.name %>,
+							<% end %>
+							<%#= link_to 'Assigned projects', projects_user_path(user) %></td>
+						<!-- <td> -->
+							<!-- <a href="<%= edit_user_registration_path(user.id) %>" class="btn btn-primary btn-sm">Edit</a> -->
+							<%#= link_to 'Settings', edit_user_path(user), :class=>"btn btn-danger btn-xs" %>
+						<!-- </td> -->
+						<td>
+							<!-- <a href="<%= edit_user_registration_path(user.id) %>" class="btn btn-primary btn-sm">Edit</a> -->
+							<%= link_to 'Delete', user_path(user), :confirm => 'Are you sure?', :method => :delete, :class=>"btn btn-danger btn-xs" %>
+						</td>
+					</tr>	
+				<% end %>
+			<% end %>
+		</tbody>	
+	</table>	
+<% else %>
+	<div class="alert alert-info text-center">
+		No user has been found.
+	</div>	
+<% end %>

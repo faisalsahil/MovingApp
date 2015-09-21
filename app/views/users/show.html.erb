@@ -1,0 +1,46 @@
+<style type="text/css">
+	.td_width{
+		width: 20%;
+	}
+</style>
+
+<% if @user.present? %>
+<div class="container-fluid">
+	<div class="container" >
+		<div class="content" style="width:55%;">
+			<div class="row">
+				<div class="login-form">
+					<h4>User details</h4>
+					<table class="table table-striped">
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">First Name</td>
+							<td><%= @user.first_name || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Last Name</td>
+							<td><%= @user.last_name || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Email</td>
+							<td><%= @user.email || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Assigned Customers</td>
+							<td><% if @user.customers.present? %>
+									<% @user.customers.each do |customer| %>
+										<%= customer.name %>,
+									<% end %>
+								<% else%>
+								0
+								<% end %>
+							</td>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<% end %>
+<%= link_to '<< Back', users_path, :class=>"btn btn-primary btn-xs" %>

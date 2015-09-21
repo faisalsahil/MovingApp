@@ -1,0 +1,2588 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-25 19:04:51 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (39.6ms)
+  Rendered partials/_landing_nav_bar.html.erb (1.3ms)
+  Rendered partials/_flash_message.html.erb (1.1ms)
+Completed 200 OK in 133ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-25 19:04:51 +0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered partials/_landing_nav_bar.html.erb (0.3ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/javascripts/landing.js" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/landing.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-cors (0.2.9) lib/rack/cors.rb:54:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.6ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.3ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:52 +0500
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-08-25 19:04:53 +0500
+Processing by SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (133.0ms)
+  Rendered partials/_landing_nav_bar.html.erb (0.1ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 207ms (Views: 153.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/javascripts/landing.js" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/landing.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-cors (0.2.9) lib/rack/cors.rb:54:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (59.7ms)
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:54 +0500
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-08-25 19:04:55 +0500
+Processing by RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (9.9ms)
+  Rendered partials/_landing_nav_bar.html.erb (0.2ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 100ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+
+Started GET "/javascripts/landing.js" for 127.0.0.1 at 2014-08-25 19:04:56 +0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/landing.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-cors (0.2.9) lib/rack/cors.rb:54:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.1ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (49.1ms)
+
+
+Started POST "/users/adduser" for 127.0.0.1 at 2014-08-25 19:05:09 +0500
+Processing by UsersController#adduser as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aPf+pct1f8JhpMgWqEOcgUg5gdlHXHsTxEdsEjfXzgM=", "user"=>{"email"=>"faisal.bhatti@devsinc.com", "first_name"=>"faisl", "last_name"=>"bhatti", "company"=>"jkfgh", "phone"=>"jhfgjh", "address"=>"sjhdgsfgjk", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (25.9ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'faisal.bhatti@devsinc.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO `users` (`address`, `company`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `first_name`, `last_name`, `last_sign_in_at`, `last_sign_in_ip`, `phone`, `sign_in_count`, `updated_at`) VALUES ('sjhdgsfgjk', 'jkfgh', '2014-08-25 14:05:09', '2014-08-25 14:05:09', '127.0.0.1', 'faisal.bhatti@devsinc.com', '$2a$10$ZIlkizj4heD7pi95th4N6Oa8TsJDlLO7DRw1Cu7s8tMRzjlWLG0xy', 'faisl', 'bhatti', '2014-08-25 14:05:09', '127.0.0.1', 'jhfgjh', 1, '2014-08-25 14:05:09')
+Mysql2::Error: Duplicate entry 'faisal.bhatti@devsinc.com' for key 'index_users_on_email': INSERT INTO `users` (`address`, `company`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `first_name`, `last_name`, `last_sign_in_at`, `last_sign_in_ip`, `phone`, `sign_in_count`, `updated_at`) VALUES ('sjhdgsfgjk', 'jkfgh', '2014-08-25 14:05:09', '2014-08-25 14:05:09', '127.0.0.1', 'faisal.bhatti@devsinc.com', '$2a$10$ZIlkizj4heD7pi95th4N6Oa8TsJDlLO7DRw1Cu7s8tMRzjlWLG0xy', 'faisl', 'bhatti', '2014-08-25 14:05:09', '127.0.0.1', 'jhfgjh', 1, '2014-08-25 14:05:09')
+  [1m[36m (53.8ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 279ms
+
+ActiveRecord::RecordNotUnique (Mysql2::Error: Duplicate entry 'faisal.bhatti@devsinc.com' for key 'index_users_on_email': INSERT INTO `users` (`address`, `company`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `first_name`, `last_name`, `last_sign_in_at`, `last_sign_in_ip`, `phone`, `sign_in_count`, `updated_at`) VALUES ('sjhdgsfgjk', 'jkfgh', '2014-08-25 14:05:09', '2014-08-25 14:05:09', '127.0.0.1', 'faisal.bhatti@devsinc.com', '$2a$10$ZIlkizj4heD7pi95th4N6Oa8TsJDlLO7DRw1Cu7s8tMRzjlWLG0xy', 'faisl', 'bhatti', '2014-08-25 14:05:09', '127.0.0.1', 'jhfgjh', 1, '2014-08-25 14:05:09')):
+  app/controllers/users_controller.rb:92:in `adduser'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+Processing by SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered partials/_landing_nav_bar.html.erb (0.2ms)
+  Rendered partials/_flash_message.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+
+Started GET "/javascripts/landing.js" for 127.0.0.1 at 2014-08-25 19:05:47 +0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/landing.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-cors (0.2.9) lib/rack/cors.rb:54:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (44.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aPf+pct1f8JhpMgWqEOcgUg5gdlHXHsTxEdsEjfXzgM=", "user"=>{"email"=>"faisal.bhatti@devsinc.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'faisal.bhatti@devsinc.com' ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2014-08-25 13:34:52', `current_sign_in_at` = '2014-08-25 14:05:53', `sign_in_count` = 1231, `updated_at` = '2014-08-25 14:05:53' WHERE `users`.`id` = 2
+  [1m[36m (34.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tokens` (`api`, `created_at`, `updated_at`) VALUES ('100c4fa7ba44904ec4180d0116a32ce9', '2014-08-25 14:05:53', '2014-08-25 14:05:53')[0m
+  [1m[35m (40.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `tokens` SET `user_id` = 2, `updated_at` = '2014-08-25 14:05:53' WHERE `tokens`.`id` = 23
+  [1m[36m (53.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 395ms (ActiveRecord: 132.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered partials/_nav_bar.html.erb (1.8ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:53 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:05:54 +0500
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2014-08-25 19:05:55 +0500
+Processing by CustomersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`client_id` = 2
+  Rendered customers/_form.html.erb (62.5ms)
+  Rendered customers/new.html.erb within layouts/application (65.7ms)
+  Rendered partials/_nav_bar.html.erb (1.2ms)
+  Rendered partials/_flash_message.html.erb (0.5ms)
+Completed 200 OK in 98ms (Views: 87.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2014-08-25 19:05:59 +0500
+Processing by CustomersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT `customers`.* FROM `customers` INNER JOIN `customers_users` ON `customers`.`id` = `customers_users`.`customer_id` WHERE `customers_users`.`user_id` = 2 AND `customers`.`close` = 0
+  Rendered customers/index.html.erb within layouts/application (15.3ms)
+  Rendered partials/_nav_bar.html.erb (0.4ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 113ms (Views: 29.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/customers/9/items" for 127.0.0.1 at 2014-08-25 19:06:00 +0500
+Processing by ItemsController#index as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT `items`.* FROM `items` WHERE `items`.`customer_id` = 9 AND `items`.`cn` = 1[0m
+  Rendered items/index.html.erb within layouts/application (41.6ms)
+  Rendered partials/_nav_bar.html.erb (1.6ms)
+  Rendered partials/_flash_message.html.erb (1.5ms)
+Completed 200 OK in 71ms (Views: 59.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:06:03 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.3ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (17.8ms)
+  Rendered items/new.html.erb within layouts/application (19.1ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (/home/devsinc/projects/Moving-App/app/models/global_constants.rb:13: class/module name must be CONSTANT):
+    75:           <%= f.label "Desr symbol", class: "col-sm-3 control-label" %>
+    76:           <div class="col-sm-9">
+    77:             <%#= f.text_field :desr_symbole, class: "form-control" %>
+    78:             <%= f.select :desr_symbole, options_for_select(GlobalConstants::Options::DESCR) %>
+    79:           </div>
+    80:         </div>
+    81: 
+  app/views/items/_form.html.erb:78:in `block in _app_views_items__form_html_erb__4010205420203349486_69986561770060'
+  app/views/items/_form.html.erb:4:in `_app_views_items__form_html_erb__4010205420203349486_69986561770060'
+  app/views/items/new.html.erb:2:in `_app_views_items_new_html_erb___3014094193802415552_69986561742800'
+  app/controllers/items_controller.rb:18:in `new'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:06:03 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.3ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (56.0ms)
+  Rendered items/new.html.erb within layouts/application (57.8ms)
+Completed 500 Internal Server Error in 70ms
+
+ActionView::Template::Error (/home/devsinc/projects/Moving-App/app/models/global_constants.rb:13: class/module name must be CONSTANT):
+    75:           <%= f.label "Desr symbol", class: "col-sm-3 control-label" %>
+    76:           <div class="col-sm-9">
+    77:             <%#= f.text_field :desr_symbole, class: "form-control" %>
+    78:             <%= f.select :desr_symbole, options_for_select(GlobalConstants::Options::DESCR) %>
+    79:           </div>
+    80:         </div>
+    81: 
+  app/views/items/_form.html.erb:78:in `block in _app_views_items__form_html_erb__4010205420203349486_69986561770060'
+  app/views/items/_form.html.erb:4:in `_app_views_items__form_html_erb__4010205420203349486_69986561770060'
+  app/views/items/new.html.erb:2:in `_app_views_items_new_html_erb___3014094193802415552_69986561742800'
+  app/controllers/items_controller.rb:18:in `new'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/customers/9/items" for 127.0.0.1 at 2014-08-25 19:08:47 +0500
+Processing by ItemsController#index as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35mItem Load (0.1ms)[0m  SELECT `items`.* FROM `items` WHERE `items`.`customer_id` = 9 AND `items`.`cn` = 1
+  Rendered items/index.html.erb within layouts/application (1.6ms)
+  Rendered partials/_nav_bar.html.erb (0.7ms)
+  Rendered partials/_flash_message.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 16.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:08:48 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:08:50 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (62.2ms)
+  Rendered items/new.html.erb within layouts/application (63.3ms)
+Completed 500 Internal Server Error in 74ms
+
+ActionView::Template::Error (/home/devsinc/projects/Moving-App/app/models/global_constants.rb:13: class/module name must be CONSTANT):
+    75:           <%= f.label "Desr symbol", class: "col-sm-3 control-label" %>
+    76:           <div class="col-sm-9">
+    77:             <%#= f.text_field :desr_symbole, class: "form-control" %>
+    78:             <%= f.select :desr_symbole, GlobalConstants::Options::DESCR %>
+    79:           </div>
+    80:         </div>
+    81: 
+  app/views/items/_form.html.erb:78:in `block in _app_views_items__form_html_erb__4010205420203349486_69986292225040'
+  app/views/items/_form.html.erb:4:in `_app_views_items__form_html_erb__4010205420203349486_69986292225040'
+  app/views/items/new.html.erb:2:in `_app_views_items_new_html_erb___3014094193802415552_69986561742800'
+  app/controllers/items_controller.rb:18:in `new'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:08:50 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (7.4ms)
+  Rendered items/new.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (/home/devsinc/projects/Moving-App/app/models/global_constants.rb:13: class/module name must be CONSTANT):
+    75:           <%= f.label "Desr symbol", class: "col-sm-3 control-label" %>
+    76:           <div class="col-sm-9">
+    77:             <%#= f.text_field :desr_symbole, class: "form-control" %>
+    78:             <%= f.select :desr_symbole, GlobalConstants::Options::DESCR %>
+    79:           </div>
+    80:         </div>
+    81: 
+  app/views/items/_form.html.erb:78:in `block in _app_views_items__form_html_erb__4010205420203349486_69986292225040'
+  app/views/items/_form.html.erb:4:in `_app_views_items__form_html_erb__4010205420203349486_69986292225040'
+  app/views/items/new.html.erb:2:in `_app_views_items_new_html_erb___3014094193802415552_69986561742800'
+  app/controllers/items_controller.rb:18:in `new'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:09:36 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (67.8ms)
+  Rendered items/new.html.erb within layouts/application (68.6ms)
+  Rendered partials/_nav_bar.html.erb (0.9ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 268ms (Views: 82.2ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:09:37 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (19.6ms)
+  Rendered items/new.html.erb within layouts/application (21.4ms)
+  Rendered partials/_nav_bar.html.erb (0.6ms)
+  Rendered partials/_flash_message.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 36.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:00 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:01 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (8.7ms)
+  Rendered items/new.html.erb within layouts/application (9.8ms)
+  Rendered partials/_nav_bar.html.erb (0.5ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 22.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:11:31 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (9.8ms)
+  Rendered items/new.html.erb within layouts/application (10.8ms)
+  Rendered partials/_nav_bar.html.erb (0.6ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:03 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:12:04 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (6.7ms)
+  Rendered items/new.html.erb within layouts/application (7.6ms)
+  Rendered partials/_nav_bar.html.erb (1.2ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 30.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:26 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:13:27 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:18:22 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.3ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (6.4ms)
+  Rendered items/new.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 219ms
+
+ActionView::Template::Error (/home/devsinc/projects/Moving-App/app/models/global_constants.rb:28: syntax error, unexpected ',', expecting ']'
+                  ,["BR (broken)","BR (broken)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:29: syntax error, unexpected ',', expecting keyword_end
+                  ,["BU (burned)","BU (burned)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:30: syntax error, unexpected ',', expecting keyword_end
+                  ,["CH (Chipped)","CH (Chipped)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:31: syntax error, unexpected ',', expecting keyword_end
+                  ,["CU (Content & condition unk...
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:32: syntax error, unexpected ',', expecting keyword_end
+                  ,["D (Dented)","D (Dented)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:33: syntax error, unexpected ',', expecting keyword_end
+                  ,["F (Faded)","F (Faded)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:34: syntax error, unexpected ',', expecting keyword_end
+                  ,["G (Gouged)","G (Gouged)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:35: syntax error, unexpected ',', expecting keyword_end
+                  ,["L (Loose)","L (Loose)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:36: syntax error, unexpected ',', expecting keyword_end
+                  ,["M (Marred)","M (Marred)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:37: syntax error, unexpected ',', expecting keyword_end
+                  ,["MI (Mildew)","MI (Mildew)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:38: syntax error, unexpected ',', expecting keyword_end
+                  ,["MO (Motheaten)","MO (Motheaten)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:39: syntax error, unexpected ',', expecting keyword_end
+                  ,["R (Rubbed)","R (Rubbed)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:40: syntax error, unexpected ',', expecting keyword_end
+                  ,["RU (Rusted)","RU (Rusted)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:41: syntax error, unexpected ',', expecting keyword_end
+                  ,["SC (Scratched)","SC (Scratched)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:42: syntax error, unexpected ',', expecting keyword_end
+                  ,["SH (Short)","SH (Short)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:43: syntax error, unexpected ',', expecting keyword_end
+                  ,["SO (Soiled)","SO (Soiled)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:44: syntax error, unexpected ',', expecting keyword_end
+                  ,["SW (Stretch wrapped)","SW (Stretch wrapped)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:45: syntax error, unexpected ',', expecting keyword_end
+                  ,["T (Torn)","T (Torn)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:46: syntax error, unexpected ',', expecting keyword_end
+                  ,["W (Badly worn)","W (Badly worn)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:47: syntax error, unexpected ',', expecting keyword_end
+                  ,["Z (Cracked)","Z (Cracked)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:48: syntax error, unexpected ']', expecting keyword_end
+    	    ];
+    	     ^):
+    82:           <%= f.label "Desr symbol", class: "col-sm-3 control-label" %>
+    83:           <div class="col-sm-9">
+    84:             <%#= f.text_field :desr_symbole, class: "form-control" %>
+    85:             <%= f.select :desr_symbole, GlobalConstants::Options::DESCR, class: "select" %>
+    86:           </div>
+    87:         </div>
+    88: 
+  app/views/items/_form.html.erb:85:in `block in _app_views_items__form_html_erb__4010205420203349486_69986561056620'
+  app/views/items/_form.html.erb:11:in `_app_views_items__form_html_erb__4010205420203349486_69986561056620'
+  app/views/items/new.html.erb:2:in `_app_views_items_new_html_erb___3014094193802415552_69986561742800'
+  app/controllers/items_controller.rb:18:in `new'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.5ms)
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:36:04 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (54.3ms)
+  Rendered items/new.html.erb within layouts/application (55.1ms)
+Completed 500 Internal Server Error in 245ms
+
+ActionView::Template::Error (/home/devsinc/projects/Moving-App/app/models/global_constants.rb:28: syntax error, unexpected ',', expecting ']'
+                  ,["BR (broken)","BR (broken)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:29: syntax error, unexpected ',', expecting keyword_end
+                  ,["BU (burned)","BU (burned)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:30: syntax error, unexpected ',', expecting keyword_end
+                  ,["CH (Chipped)","CH (Chipped)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:31: syntax error, unexpected ',', expecting keyword_end
+                  ,["CU (Content & condition unk...
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:32: syntax error, unexpected ',', expecting keyword_end
+                  ,["D (Dented)","D (Dented)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:33: syntax error, unexpected ',', expecting keyword_end
+                  ,["F (Faded)","F (Faded)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:34: syntax error, unexpected ',', expecting keyword_end
+                  ,["G (Gouged)","G (Gouged)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:35: syntax error, unexpected ',', expecting keyword_end
+                  ,["L (Loose)","L (Loose)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:36: syntax error, unexpected ',', expecting keyword_end
+                  ,["M (Marred)","M (Marred)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:37: syntax error, unexpected ',', expecting keyword_end
+                  ,["MI (Mildew)","MI (Mildew)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:38: syntax error, unexpected ',', expecting keyword_end
+                  ,["MO (Motheaten)","MO (Motheaten)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:39: syntax error, unexpected ',', expecting keyword_end
+                  ,["R (Rubbed)","R (Rubbed)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:40: syntax error, unexpected ',', expecting keyword_end
+                  ,["RU (Rusted)","RU (Rusted)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:41: syntax error, unexpected ',', expecting keyword_end
+                  ,["SC (Scratched)","SC (Scratched)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:42: syntax error, unexpected ',', expecting keyword_end
+                  ,["SH (Short)","SH (Short)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:43: syntax error, unexpected ',', expecting keyword_end
+                  ,["SO (Soiled)","SO (Soiled)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:44: syntax error, unexpected ',', expecting keyword_end
+                  ,["SW (Stretch wrapped)","SW (Stretch wrapped)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:45: syntax error, unexpected ',', expecting keyword_end
+                  ,["T (Torn)","T (Torn)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:46: syntax error, unexpected ',', expecting keyword_end
+                  ,["W (Badly worn)","W (Badly worn)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:47: syntax error, unexpected ',', expecting keyword_end
+                  ,["Z (Cracked)","Z (Cracked)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:48: syntax error, unexpected ']', expecting keyword_end):
+    82:           <%= f.label "Desr symbol", class: "col-sm-3 control-label" %>
+    83:           <div class="col-sm-9">
+    84:             <%#= f.text_field :desr_symbole, class: "form-control" %>
+    85:             <%= f.select :desr_symbole, GlobalConstants::Options::DESCR, class: "select" %>
+    86:           </div>
+    87:         </div>
+    88: 
+  app/views/items/_form.html.erb:85:in `block in _app_views_items__form_html_erb__4010205420203349486_69986561056620'
+  app/views/items/_form.html.erb:11:in `_app_views_items__form_html_erb__4010205420203349486_69986561056620'
+  app/views/items/new.html.erb:2:in `_app_views_items_new_html_erb___3014094193802415552_69986561742800'
+  app/controllers/items_controller.rb:18:in `new'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:36:41 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (9.9ms)
+  Rendered items/new.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 267ms
+
+ActionView::Template::Error (/home/devsinc/projects/Moving-App/app/models/global_constants.rb:28: syntax error, unexpected ',', expecting ']'
+                  ,["BR (broken)","BR (broken)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:29: syntax error, unexpected ',', expecting keyword_end
+                  ,["BU (burned)","BU (burned)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:30: syntax error, unexpected ',', expecting keyword_end
+                  ,["CH (Chipped)","CH (Chipped)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:31: syntax error, unexpected ',', expecting keyword_end
+                  ,["CU (Content & condition unk...
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:32: syntax error, unexpected ',', expecting keyword_end
+                  ,["D (Dented)","D (Dented)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:33: syntax error, unexpected ',', expecting keyword_end
+                  ,["F (Faded)","F (Faded)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:34: syntax error, unexpected ',', expecting keyword_end
+                  ,["G (Gouged)","G (Gouged)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:35: syntax error, unexpected ',', expecting keyword_end
+                  ,["L (Loose)","L (Loose)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:36: syntax error, unexpected ',', expecting keyword_end
+                  ,["M (Marred)","M (Marred)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:37: syntax error, unexpected ',', expecting keyword_end
+                  ,["MI (Mildew)","MI (Mildew)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:38: syntax error, unexpected ',', expecting keyword_end
+                  ,["MO (Motheaten)","MO (Motheaten)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:39: syntax error, unexpected ',', expecting keyword_end
+                  ,["R (Rubbed)","R (Rubbed)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:40: syntax error, unexpected ',', expecting keyword_end
+                  ,["RU (Rusted)","RU (Rusted)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:41: syntax error, unexpected ',', expecting keyword_end
+                  ,["SC (Scratched)","SC (Scratched)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:42: syntax error, unexpected ',', expecting keyword_end
+                  ,["SH (Short)","SH (Short)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:43: syntax error, unexpected ',', expecting keyword_end
+                  ,["SO (Soiled)","SO (Soiled)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:44: syntax error, unexpected ',', expecting keyword_end
+                  ,["SW (Stretch wrapped)","SW (Stretch wrapped)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:45: syntax error, unexpected ',', expecting keyword_end
+                  ,["T (Torn)","T (Torn)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:46: syntax error, unexpected ',', expecting keyword_end
+                  ,["W (Badly worn)","W (Badly worn)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:47: syntax error, unexpected ',', expecting keyword_end
+                  ,["Z (Cracked)","Z (Cracked)"]
+                   ^
+/home/devsinc/projects/Moving-App/app/models/global_constants.rb:48: syntax error, unexpected ']', expecting keyword_end):
+    82:           <%= f.label "Desr symbol", class: "col-sm-3 control-label" %>
+    83:           <div class="col-sm-9">
+    84:             <%#= f.text_field :desr_symbole, class: "form-control" %>
+    85:             <%= f.select :desr_symbole, GlobalConstants::Options::DESCR, class: "select" %>
+    86:           </div>
+    87:         </div>
+    88: 
+  app/views/items/_form.html.erb:85:in `block in _app_views_items__form_html_erb__4010205420203349486_69986561056620'
+  app/views/items/_form.html.erb:11:in `_app_views_items__form_html_erb__4010205420203349486_69986561056620'
+  app/views/items/new.html.erb:2:in `_app_views_items_new_html_erb___3014094193802415552_69986561742800'
+  app/controllers/items_controller.rb:18:in `new'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (12.5ms)
+  Rendered items/new.html.erb within layouts/application (13.3ms)
+  Rendered partials/_nav_bar.html.erb (0.6ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 217ms (Views: 25.1ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:23 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:38:24 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (13.6ms)
+  Rendered items/new.html.erb within layouts/application (14.4ms)
+  Rendered partials/_nav_bar.html.erb (0.6ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 246ms (Views: 25.5ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:40:25 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.1ms)[0m  SELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9[0m
+  Rendered items/_form.html.erb (8.5ms)
+  Rendered items/new.html.erb within layouts/application (9.3ms)
+  Rendered partials/_nav_bar.html.erb (1.6ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:04 +0500
+
+
+Started GET "/customers/9/items/new" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+Processing by ItemsController#new as HTML
+  Parameters: {"customer_id"=>"9"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT `customers`.* FROM `customers` WHERE `customers`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `items` WHERE `items`.`customer_id` = 9
+  Rendered items/_form.html.erb (91.1ms)
+  Rendered items/new.html.erb within layouts/application (91.8ms)
+  Rendered partials/_nav_bar.html.erb (0.5ms)
+  Rendered partials/_flash_message.html.erb (0.2ms)
+Completed 200 OK in 109ms (Views: 104.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/jquery-form.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/bootbox.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/answers.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/incidents.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/invitations.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-25 19:41:07 +0500
+
+
+Started GET "/customers" for 127.0.0.1 at 2014-08-25 19:41:36 +0500
+Processing by CustomersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT `customers`.* FROM `customers` INNER JOIN `customers_users` ON `customers`.`id` = `customers_users`.`customer_id` WHERE `customers_users`.`user_id` = 2 AND `customers`.`close` = 0
+  Rendered customers/index.html.erb within layouts/application (11.8ms)
+  Rendered partials/_nav_bar.html.erb (0.4ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 28.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-26 11:08:49 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+  Rendered partials/_landing_nav_bar.html.erb (1.0ms)
+  Rendered partials/_flash_message.html.erb (2.0ms)
+Completed 200 OK in 345ms (Views: 336.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-26 11:08:49 +0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered partials/_landing_nav_bar.html.erb (0.2ms)
+  Rendered partials/_flash_message.html.erb (0.4ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/landing.js" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/landing.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-cors (0.2.9) lib/rack/cors.rb:54:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.3ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.2ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (62.7ms)
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-26 11:08:50 +0500
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-08-26 11:09:03 +0500
+Processing by SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (85.3ms)
+  Rendered partials/_landing_nav_bar.html.erb (0.1ms)
+  Rendered partials/_flash_message.html.erb (0.1ms)
+Completed 200 OK in 207ms (Views: 116.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/javascripts/landing.js" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/landing.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-cors (0.2.9) lib/rack/cors.rb:54:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/devsinc/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.0ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/devsinc/.rvm/gems/ruby-2.0.0-p451@test_app/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (44.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/bootstrap-multiselect.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/answers.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/incidents.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/invitations.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/landing.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/landing_page_style.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-26 11:09:04 +0500

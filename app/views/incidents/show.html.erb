@@ -1,0 +1,63 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Report type:</strong>
+  <%= @incident.report_type %>
+</p>
+
+<p>
+  <strong>Your name:</strong>
+  <%= @incident.your_name %>
+</p>
+
+<p>
+  <strong>Job title:</strong>
+  <%= @incident.job_title %>
+</p>
+
+<p>
+  <strong>Injury date:</strong>
+  <%= @incident.injury_date.strftime("%a  %d - %m - %Y") %>
+</p>
+
+<p>
+  <strong>Injury time:</strong>
+  <%= @incident.injury_time.strftime("%I:%M %p") %>
+</p>
+
+<p>
+  <strong>Witnesses:</strong>
+  <%= @incident.witnesses %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @incident.location %>
+</p>
+
+<p>
+  <strong>Circumstances:</strong>
+  <%= @incident.circumstances %>
+</p>
+
+<p>
+  <strong>Event discription:</strong>
+  <%= @incident.event_discription %>
+</p>
+
+<p>
+  <strong>Injuries type:</strong>
+  <%= @incident.injuries_type %>
+</p>
+
+<p>
+  <strong>Ppe used:</strong>
+  <%= @incident.ppe_used %>
+</p>
+
+<p>
+  <strong>Medical assistance provided:</strong>
+  <%= @incident.medical_assistance_provided %>
+</p>
+
+<%= link_to 'Back', project_incidents_path(@project), class: "btn btn-primary" %>

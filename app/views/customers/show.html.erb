@@ -1,0 +1,66 @@
+<style type="text/css">
+	.td_width{
+		width: 20%;
+	}
+</style>
+
+
+<% if @customer.present? %>
+<div class="container-fluid">
+	<div class="container" >
+		<div class="content" style="width:55%;">
+			<div class="row">
+				<div class="login-form">
+					<div class="alert alert-info">
+						<%= link_to 'Edit', edit_customer_path(@customer), :class=>"btn btn-primary btn-xs pull-right" %>
+						<h4>Customer details</h4>
+					</div>
+					<table class="table table-striped">
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">bill_of_laden</td>
+							<td><%= @customer.bill_of_laden || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Name</td>
+							<td><%= @customer.name || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Phone</td>
+							<td><%= @customer.phone || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Loading Address</td>
+							<td><%= @customer.loading_address || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Destination Address</td>
+							<td><%= @customer.destination_address || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Tag lot #</td>
+							<td><%= @customer.tag_lot_number || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Tag lot color</td>
+							<td><%= @customer.tag_lot_color || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Agent name</td>
+							<td><%= @customer.agent_name || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Pickup date</td>
+							<td><%= @customer.date_of_pickup || ''%></td>
+						</tr>
+						<tr>
+							<td class="td_width" style="background-color: lightgray;">Charges</td>
+							<td><%= @customer.charges || ''%></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<% end %>
+<%= link_to '<< Back', customers_path, :class=>"btn btn-primary btn-xs" %>

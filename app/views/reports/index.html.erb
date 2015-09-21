@@ -1,0 +1,54 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    if ( $('#inc_id').length > 0 && $('#inc_id').val() > 0 ){
+      window.location.href = '/incidents/'+ $('#inc_id').val() +'/send_new_incident.pdf';
+    }
+
+  });  
+</script>
+<%#= hidden_field_tag 'active_class', 'all_projects'%>
+<% if @reports.present? %>  
+  <h1><%= @project.name %></h1>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <th>Date</th>
+      <th>User</th>
+      <th>Action</th>
+    </thead>  
+    <tbody>
+      <% @reports.each do |report|%>
+        <tr>
+          <td>
+            <% if report.answers.where(status: 2).present? %>
+              <span style="color: red;"><%= "#{report.created_at.strftime("%m/%d/%Y")}" %></span>
+            <% else %>
+              <%= "#{report.created_at.strftime("%m/%d/%Y")}" %>
+            <% end %>
+          </td>
+          <td>
+            <%#  reports = @project.reports.where("reports.created_at >= ? AND reports.created_at <= ?", report.created_at.to_date, "#{report.created_at.to_date} 23:59:59.996") %>
+              <%# reports && reports.each do |rep| %> 
+               <% user = User.find(report.user_id) %> 
+                <%# if user.present? %>
+                  <%= user.first_name || user.last_name || '' %>
+                <%# end %>
+              <%# end %>
+            </td>
+          <td>
+            <%= link_to "Download Checklist",detail_report_project_report_path(@project,report ,{ format: :pdf}), class: "btn btn-success btn-xs" %>
+            <%= link_to "View Checklist", project_report_path(@project,report), class: "btn btn-xs btn-primary" %>
+            <%= link_to 'Delete', project_report_path(@project,report), data: { confirm: 'Are you sure?' }, method: :delete, class: "btn btn-xs btn-danger" %>
+            </td>
+        </tr>
+      <% end %>   
+    </tbody>  
+  </table> 
+  <% if params[:inc].present? && Incident.find(params[:inc]).present? && Incident.find(params[:inc]).downloaded.blank? %>
+    <%= hidden_field_tag :inc_id, params[:inc] %>
+  <% end %>
+<% else %>
+  <div class="alert alert-info">No report has been found.</div>
+<% end %>
+<%= link_to "< Back",report_project_path(@project), class: "btn btn-xs btn-primary" %>   
+

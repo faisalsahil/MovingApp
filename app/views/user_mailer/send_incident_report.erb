@@ -1,0 +1,17 @@
+Dear, <%= @user.first_name %><br/>
+===============================================
+<br/><br/>
+<strong>Category: </strong> <%= @cname %>
+<br/>
+<strong>Question: </strong> <%= @body %>
+<br/>
+<strong>Notes: </strong><%= @answer.notes %>
+<br/><br/><br/>
+<% if @answer.file.present?%>
+To view file: <%= link_to "click here",  "http://codingqna.com:3000#{@file}", target: "_blank" %>
+<% end %>
+<br/><br/>
+Have a great day!
+	</body>	
+</html>
+

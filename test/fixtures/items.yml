@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  item_number: MyString
+  description_at_origin: MyString
+  driver: MyString
+  warehouse: MyString
+  warehouse_cross: MyString
+  shipper: MyString
+  desr_symbole: MyString
+  exception_symbol: MyString
+  location_symbol: MyString
+  file1: MyString
+  file2: 
+  customer_id: 1
+
+two:
+  item_number: MyString
+  description_at_origin: MyString
+  driver: MyString
+  warehouse: MyString
+  warehouse_cross: MyString
+  shipper: MyString
+  desr_symbole: MyString
+  exception_symbol: MyString
+  location_symbol: MyString
+  file1: MyString
+  file2: 
+  customer_id: 1
